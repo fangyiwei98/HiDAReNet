@@ -12,10 +12,10 @@ Open-set domain adaptive semantic segmentation (DASS) for remote sensing images 
 ## ✨Highlight
 
 
-- A novel HOSNet is proposed for RS open-set UDASS, which restores the representation space and improves adaptability through hierarchical purification, structuring, and unification.
-- A DCKU-Miner is proposed to purify the known-class representation space. It distinguishes reliable known and unknown target features through dual-consensus mining over complementary decoder branches by jointly considering prediction consistency, confidence, and distribution discrepancy.
-- A QPUA is proposed to structure the unknown representation space. It assigns reserved representation capacity to each unknown subclass through quota-preserved top-response selection, thereby reducing the optimization bias caused by overrepresented unknown categories.
-- A AUCL module is proposed to unify known and unknown representations. It improves intra-class compactness and inter-class separability through anchor-guided contrastive learning with momentum-updated class anchors.
+- A novel HiDAReNet is proposed for RS open-set UDASS, which restores the representation space and improves adaptability through hierarchical purification, structuring, and unification.
+- A CGKA module is proposed to purify the known-class representation space. It distinguishes reliable known and unknown target features through dual-consensus mining over complementary decoder branches by jointly considering prediction consistency, confidence, and distribution discrepancy.
+- A AURA module is proposed to structure the unknown representation space. It assigns reserved representation capacity to each unknown subclass through quota-preserved top-response selection, thereby reducing the optimization bias caused by overrepresented unknown categories.
+- A MAGU module is proposed to unify known and unknown representations. It improves intra-class compactness and inter-class separability through anchor-guided contrastive learning with momentum-updated class anchors.
 
 
 ## 💡Method Overview
